@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>提示词示例 | ComfyUI Storyboard Oneclick</title>
+  <meta name="description" content="参考图、单帧图和图生视频提示词写法示例。">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">Storyboard Oneclick</a>
+    <nav>
+      <a href="index.html">教学页</a>
+      <a href="#reference">参考图</a>
+      <a href="#frames">单帧图</a>
+      <a href="#video">图生视频</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-title">
+      <p class="eyebrow">Prompt Examples</p>
+      <h1>提示词示例页</h1>
+      <p class="lead">写提示词时先固定角色、场景和关键道具，再为每个镜头补构图、视角、光线、质感和动作意图。</p>
+    </section>
+
+    <section id="reference" class="section">
+      <h2>参考图提示词</h2>
+      <div class="prompt-list">
+        <article>
+          <h3>REF01 主角</h3>
+          <p>30多岁公司职员，略疲惫，深色西装外套，白衬衫，黑发，眼下有轻微黑眼圈，普通都市男性，不夸张恐惧表情。</p>
+        </article>
+        <article>
+          <h3>REF03 主角家</h3>
+          <p>普通单身公寓，玄关鞋柜、钥匙盘、客厅沙发、半开的卧室门，暖黄灯但阴影很重。</p>
+        </article>
+        <article>
+          <h3>REF04 钥匙</h3>
+          <p>一把普通银色门钥匙，旧钥匙环上有磨损，孤零零放在暗色木桌，强烈侧光，投下细长阴影。</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="frames" class="section">
+      <h2>单帧图提示词结构</h2>
+      <div class="prompt-card">
+        <p class="tag">公式</p>
+        <p>类型与比例 + 场景时间 + 主体动作 + 构图景别 + 视角镜头 + 光线色调 + 画面细节 + 质感风格 + 限制项。</p>
+      </div>
+      <pre><code>现实主义悬疑短片单帧，16:9，傍晚开放式办公室，冷白顶灯，窗外城市灯光，
+30多岁男职员独自坐在工位电脑前，深色西装外套白衬衫，
+桌面有文件夹、咖啡杯、键盘和手机，构图为中远景，轻微俯视，
+人物偏画面右侧，空间空旷，冷色调，低对比胶片颗粒，真实电影质感。</code></pre>
+    </section>
+
+    <section id="video" class="section two-col">
+      <div>
+        <h2>图生视频提示词</h2>
+        <p>图生视频提示词不需要重复所有静态细节，重点写运动、速度、光线变化、焦点变化和声音节奏。</p>
+      </div>
+      <pre><code>镜头从办公室走道缓慢推向主角工位，速度很慢，
+冷白灯轻微闪烁，画面保持现实主义悬疑质感，
+城市窗光在背景虚化，不出现夸张恐怖元素。</code></pre>
+    </section>
+
+    <section class="section">
+      <h2>镜头示例</h2>
+      <div class="gallery">
+        <figure><img src="assets/sample-stills/S01.jpg" alt="S01"><figcaption>S01 公司建立镜头</figcaption></figure>
+        <figure><img src="assets/sample-stills/S08.jpg" alt="S08"><figcaption>S08 回家检查环境</figcaption></figure>
+        <figure><img src="assets/sample-stills/S17.jpg" alt="S17"><figcaption>S17 耳边低语</figcaption></figure>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Use references consistently: same character, same home, same key.</p>
+  </footer>
+</body>
+</html>
+

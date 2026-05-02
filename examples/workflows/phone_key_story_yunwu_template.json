@@ -1,0 +1,4588 @@
+{
+  "id": "phone-key-story-yunwu-test",
+  "revision": 0,
+  "last_node_id": 50,
+  "last_link_id": 57,
+  "nodes": [
+    {
+      "id": 1,
+      "type": "YunwuGeminiImage",
+      "pos": [
+        0,
+        0
+      ],
+      "size": [
+        520,
+        760
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image_1",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_2",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_3",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_4",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_5",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_6",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_7",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_8",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_9",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_10",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_11",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_12",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_13",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_14",
+          "type": "IMAGE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "slot_index": 0,
+          "links": [
+            1,
+            4,
+            6,
+            7,
+            9,
+            10,
+            12,
+            15,
+            18,
+            21,
+            23,
+            25,
+            26,
+            27,
+            33
+          ]
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "slot_index": 1,
+          "links": []
+        },
+        {
+          "name": "raw_json",
+          "type": "STRING",
+          "slot_index": 2,
+          "links": []
+        }
+      ],
+      "title": "1 REF01 主角",
+      "properties": {
+        "Node name for S&R": "YunwuGeminiImage"
+      },
+      "widgets_values": [
+        "30多岁公司职员，略疲惫，深色西装外套，白衬衫，黑发，眼下有轻微黑眼圈，普通都市男性，不夸张恐惧表情",
+        "",
+        "https://yunwu.ai",
+        "gemini-3-pro-image-preview",
+        "TEXT,IMAGE",
+        "16:9",
+        "1K",
+        1,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        "randomize",
+        "image/png",
+        "{}",
+        "{}"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "YunwuGeminiImage",
+      "pos": [
+        620,
+        0
+      ],
+      "size": [
+        520,
+        760
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image_1",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_2",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_3",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_4",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_5",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_6",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_7",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_8",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_9",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_10",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_11",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_12",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_13",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_14",
+          "type": "IMAGE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "slot_index": 0,
+          "links": [
+            2,
+            3,
+            5,
+            8,
+            34
+          ]
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "slot_index": 1,
+          "links": []
+        },
+        {
+          "name": "raw_json",
+          "type": "STRING",
+          "slot_index": 2,
+          "links": []
+        }
+      ],
+      "title": "2 REF02 办公室工位",
+      "properties": {
+        "Node name for S&R": "YunwuGeminiImage"
+      },
+      "widgets_values": [
+        "夜色将近的开放式办公室，显示器、键盘、文件夹、一次性咖啡杯，冷白顶灯，窗外城市灯光",
+        "",
+        "https://yunwu.ai",
+        "gemini-3-pro-image-preview",
+        "TEXT,IMAGE",
+        "16:9",
+        "1K",
+        1,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        "randomize",
+        "image/png",
+        "{}",
+        "{}"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "YunwuGeminiImage",
+      "pos": [
+        1240,
+        0
+      ],
+      "size": [
+        520,
+        760
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image_1",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_2",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_3",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_4",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_5",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_6",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_7",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_8",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_9",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_10",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_11",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_12",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_13",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_14",
+          "type": "IMAGE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "slot_index": 0,
+          "links": [
+            11,
+            13,
+            16,
+            19,
+            22,
+            24,
+            28,
+            29,
+            31,
+            35
+          ]
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "slot_index": 1,
+          "links": []
+        },
+        {
+          "name": "raw_json",
+          "type": "STRING",
+          "slot_index": 2,
+          "links": []
+        }
+      ],
+      "title": "3 REF03 主角家客厅/玄关",
+      "properties": {
+        "Node name for S&R": "YunwuGeminiImage"
+      },
+      "widgets_values": [
+        "普通单身公寓，玄关鞋柜、钥匙盘、客厅沙发、半开的卧室门，暖黄灯但阴影很重",
+        "",
+        "https://yunwu.ai",
+        "gemini-3-pro-image-preview",
+        "TEXT,IMAGE",
+        "16:9",
+        "1K",
+        1,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        "randomize",
+        "image/png",
+        "{}",
+        "{}"
+      ]
+    },
+    {
+      "id": 4,
+      "type": "YunwuGeminiImage",
+      "pos": [
+        1860,
+        0
+      ],
+      "size": [
+        520,
+        760
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image_1",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_2",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_3",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_4",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_5",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_6",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_7",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_8",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_9",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_10",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_11",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_12",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_13",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_14",
+          "type": "IMAGE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "slot_index": 0,
+          "links": [
+            30,
+            32,
+            36
+          ]
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "slot_index": 1,
+          "links": []
+        },
+        {
+          "name": "raw_json",
+          "type": "STRING",
+          "slot_index": 2,
+          "links": []
+        }
+      ],
+      "title": "4 REF04 那把钥匙",
+      "properties": {
+        "Node name for S&R": "YunwuGeminiImage"
+      },
+      "widgets_values": [
+        "一把普通银色门钥匙，旧钥匙环上有磨损，孤零零放在暗色木桌，强烈侧光，投下细长阴影",
+        "",
+        "https://yunwu.ai",
+        "gemini-3-pro-image-preview",
+        "TEXT,IMAGE",
+        "16:9",
+        "1K",
+        1,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        "randomize",
+        "image/png",
+        "{}",
+        "{}"
+      ]
+    },
+    {
+      "id": 5,
+      "type": "YunwuGeminiImage",
+      "pos": [
+        0,
+        860
+      ],
+      "size": [
+        520,
+        760
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image_1",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_2",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_3",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_4",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_5",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_6",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_7",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_8",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_9",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_10",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_11",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_12",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_13",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_14",
+          "type": "IMAGE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "slot_index": 0,
+          "links": [
+            14,
+            17,
+            20,
+            37
+          ]
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "slot_index": 1,
+          "links": []
+        },
+        {
+          "name": "raw_json",
+          "type": "STRING",
+          "slot_index": 2,
+          "links": []
+        }
+      ],
+      "title": "5 REF05 随身物品组",
+      "properties": {
+        "Node name for S&R": "YunwuGeminiImage"
+      },
+      "widgets_values": [
+        "身份证、银行卡、手机、钱包整齐摊在桌上，真实生活质感，屏幕微亮，卡片边缘清晰",
+        "",
+        "https://yunwu.ai",
+        "gemini-3-pro-image-preview",
+        "TEXT,IMAGE",
+        "16:9",
+        "1K",
+        1,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        "randomize",
+        "image/png",
+        "{}",
+        "{}"
+      ]
+    },
+    {
+      "id": 6,
+      "type": "YunwuGeminiImage",
+      "pos": [
+        620,
+        860
+      ],
+      "size": [
+        520,
+        760
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image_1",
+          "type": "IMAGE",
+          "link": 1
+        },
+        {
+          "name": "image_2",
+          "type": "IMAGE",
+          "link": 2
+        },
+        {
+          "name": "image_3",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_4",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_5",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_6",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_7",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_8",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_9",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_10",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_11",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_12",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_13",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_14",
+          "type": "IMAGE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "slot_index": 0,
+          "links": [
+            38
+          ]
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "slot_index": 1,
+          "links": []
+        },
+        {
+          "name": "raw_json",
+          "type": "STRING",
+          "slot_index": 2,
+          "links": []
+        }
+      ],
+      "title": "6 S01 公司-傍晚",
+      "properties": {
+        "Node name for S&R": "YunwuGeminiImage"
+      },
+      "widgets_values": [
+        "现实主义悬疑短片单帧，16:9，傍晚开放式办公室，冷白顶灯，窗外城市灯光，30多岁男职员独自坐在工位电脑前，深色西装外套白衬衫，桌面有文件夹、咖啡杯、键盘和手机，构图为中远景，轻微俯视，人物偏画面右侧，空间空旷，冷色调，低对比胶片颗粒，真实电影质感",
+        "",
+        "https://yunwu.ai",
+        "gemini-3-pro-image-preview",
+        "TEXT,IMAGE",
+        "16:9",
+        "1K",
+        1,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        "randomize",
+        "image/png",
+        "{}",
+        "{}"
+      ]
+    },
+    {
+      "id": 7,
+      "type": "YunwuGeminiImage",
+      "pos": [
+        1240,
+        860
+      ],
+      "size": [
+        520,
+        760
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image_1",
+          "type": "IMAGE",
+          "link": 3
+        },
+        {
+          "name": "image_2",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_3",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_4",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_5",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_6",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_7",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_8",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_9",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_10",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_11",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_12",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_13",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_14",
+          "type": "IMAGE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "slot_index": 0,
+          "links": [
+            39
+          ]
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "slot_index": 1,
+          "links": []
+        },
+        {
+          "name": "raw_json",
+          "type": "STRING",
+          "slot_index": 2,
+          "links": []
+        }
+      ],
+      "title": "7 S02 公司-傍晚",
+      "properties": {
+        "Node name for S&R": "YunwuGeminiImage"
+      },
+      "widgets_values": [
+        "电影级特写，16:9，办公桌上手机突然亮屏震动，来电显示被浅景深虚化不可读，旁边有咖啡杯和文件边角，冷色顶灯反射在屏幕上，极浅景深，低照度，真实质感，轻微胶片颗粒，紧张悬疑氛围",
+        "",
+        "https://yunwu.ai",
+        "gemini-3-pro-image-preview",
+        "TEXT,IMAGE",
+        "16:9",
+        "1K",
+        1,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        "randomize",
+        "image/png",
+        "{}",
+        "{}"
+      ]
+    },
+    {
+      "id": 8,
+      "type": "YunwuGeminiImage",
+      "pos": [
+        1860,
+        860
+      ],
+      "size": [
+        520,
+        760
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image_1",
+          "type": "IMAGE",
+          "link": 4
+        },
+        {
+          "name": "image_2",
+          "type": "IMAGE",
+          "link": 5
+        },
+        {
+          "name": "image_3",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_4",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_5",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_6",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_7",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_8",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_9",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_10",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_11",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_12",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_13",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_14",
+          "type": "IMAGE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "slot_index": 0,
+          "links": [
+            40
+          ]
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "slot_index": 1,
+          "links": []
+        },
+        {
+          "name": "raw_json",
+          "type": "STRING",
+          "slot_index": 2,
+          "links": []
+        }
+      ],
+      "title": "8 S03 公司-傍晚",
+      "properties": {
+        "Node name for S&R": "YunwuGeminiImage"
+      },
+      "widgets_values": [
+        "现实主义悬疑短片近景，16:9，男职员坐在办公室工位接起手机，眉头微皱，眼神疲惫又疑惑，电脑屏幕冷光照亮半边脸，背景工位虚化，构图为肩部近景，镜头略低于视线，冷蓝色调，真实皮肤纹理，胶片颗粒",
+        "",
+        "https://yunwu.ai",
+        "gemini-3-pro-image-preview",
+        "TEXT,IMAGE",
+        "16:9",
+        "1K",
+        1,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        "randomize",
+        "image/png",
+        "{}",
+        "{}"
+      ]
+    },
+    {
+      "id": 9,
+      "type": "YunwuGeminiImage",
+      "pos": [
+        0,
+        1720
+      ],
+      "size": [
+        520,
+        760
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image_1",
+          "type": "IMAGE",
+          "link": 6
+        },
+        {
+          "name": "image_2",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_3",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_4",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_5",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_6",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_7",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_8",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_9",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_10",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_11",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_12",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_13",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_14",
+          "type": "IMAGE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "slot_index": 0,
+          "links": [
+            41
+          ]
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "slot_index": 1,
+          "links": []
+        },
+        {
+          "name": "raw_json",
+          "type": "STRING",
+          "slot_index": 2,
+          "links": []
+        }
+      ],
+      "title": "9 S04 公司-电话内",
+      "properties": {
+        "Node name for S&R": "YunwuGeminiImage"
+      },
+      "widgets_values": [
+        "极近特写，16:9，男主角耳边贴着手机，画面只包含耳朵、手机边缘和一只紧张的眼睛，眼神突然凝住，办公室冷光，背景完全虚化，构图压迫，低照度，高细节皮肤纹理，现实悬疑电影质感",
+        "",
+        "https://yunwu.ai",
+        "gemini-3-pro-image-preview",
+        "TEXT,IMAGE",
+        "16:9",
+        "1K",
+        1,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        "randomize",
+        "image/png",
+        "{}",
+        "{}"
+      ]
+    },
+    {
+      "id": 10,
+      "type": "YunwuGeminiImage",
+      "pos": [
+        620,
+        1720
+      ],
+      "size": [
+        520,
+        760
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image_1",
+          "type": "IMAGE",
+          "link": 7
+        },
+        {
+          "name": "image_2",
+          "type": "IMAGE",
+          "link": 8
+        },
+        {
+          "name": "image_3",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_4",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_5",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_6",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_7",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_8",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_9",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_10",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_11",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_12",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_13",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_14",
+          "type": "IMAGE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "slot_index": 0,
+          "links": [
+            42
+          ]
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "slot_index": 1,
+          "links": []
+        },
+        {
+          "name": "raw_json",
+          "type": "STRING",
+          "slot_index": 2,
+          "links": []
+        }
+      ],
+      "title": "10 S05 公司-傍晚",
+      "properties": {
+        "Node name for S&R": "YunwuGeminiImage"
+      },
+      "widgets_values": [
+        "现实主义办公室中景，16:9，男职员从工位猛然站起，椅子向后滑，桌面文件轻微散开，手机握在手里，背景空荡工位，冷白灯，构图有动势，轻微运动模糊，悬疑短片质感",
+        "",
+        "https://yunwu.ai",
+        "gemini-3-pro-image-preview",
+        "TEXT,IMAGE",
+        "16:9",
+        "1K",
+        1,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        "randomize",
+        "image/png",
+        "{}",
+        "{}"
+      ]
+    },
+    {
+      "id": 11,
+      "type": "YunwuGeminiImage",
+      "pos": [
+        1240,
+        1720
+      ],
+      "size": [
+        520,
+        760
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image_1",
+          "type": "IMAGE",
+          "link": 9
+        },
+        {
+          "name": "image_2",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_3",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_4",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_5",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_6",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_7",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_8",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_9",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_10",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_11",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_12",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_13",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_14",
+          "type": "IMAGE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "slot_index": 0,
+          "links": [
+            43
+          ]
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "slot_index": 1,
+          "links": []
+        },
+        {
+          "name": "raw_json",
+          "type": "STRING",
+          "slot_index": 2,
+          "links": []
+        }
+      ],
+      "title": "11 S06 回家路上",
+      "properties": {
+        "Node name for S&R": "YunwuGeminiImage"
+      },
+      "widgets_values": [
+        "夜晚公寓走廊，16:9，男主角快步走向家门，手里攥着手机，走廊昏黄灯光，墙面有旧痕，远处门牌虚化，构图为背影中景，镜头略低，长焦压缩空间，现实主义悬疑，低照度，胶片颗粒",
+        "",
+        "https://yunwu.ai",
+        "gemini-3-pro-image-preview",
+        "TEXT,IMAGE",
+        "16:9",
+        "1K",
+        1,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        "randomize",
+        "image/png",
+        "{}",
+        "{}"
+      ]
+    },
+    {
+      "id": 12,
+      "type": "YunwuGeminiImage",
+      "pos": [
+        1860,
+        1720
+      ],
+      "size": [
+        520,
+        760
+      ],
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image_1",
+          "type": "IMAGE",
+          "link": 10
+        },
+        {
+          "name": "image_2",
+          "type": "IMAGE",
+          "link": 11
+        },
+        {
+          "name": "image_3",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_4",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_5",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_6",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_7",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_8",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_9",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_10",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_11",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_12",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_13",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_14",
+          "type": "IMAGE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "slot_index": 0,
+          "links": [
+            44
+          ]
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "slot_index": 1,
+          "links": []
+        },
+        {
+          "name": "raw_json",
+          "type": "STRING",
+          "slot_index": 2,
+          "links": []
+        }
+      ],
+      "title": "12 S07 家-玄关",
+      "properties": {
+        "Node name for S&R": "YunwuGeminiImage"
+      },
+      "widgets_values": [
+        "现实主义悬疑室内近景，16:9，男主角从门外打开公寓门进入玄关，屋内暖黄灯未开或很暗，鞋柜、钥匙盘、挂衣钩清晰可见，门缝形成强烈光线切割，构图从屋内看向门口，压抑安静，低照度胶片质感",
+        "",
+        "https://yunwu.ai",
+        "gemini-3-pro-image-preview",
+        "TEXT,IMAGE",
+        "16:9",
+        "1K",
+        1,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        "randomize",
+        "image/png",
+        "{}",
+        "{}"
+      ]
+    },
+    {
+      "id": 13,
+      "type": "YunwuGeminiImage",
+      "pos": [
+        0,
+        2580
+      ],
+      "size": [
+        520,
+        760
+      ],
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image_1",
+          "type": "IMAGE",
+          "link": 12
+        },
+        {
+          "name": "image_2",
+          "type": "IMAGE",
+          "link": 13
+        },
+        {
+          "name": "image_3",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_4",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_5",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_6",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_7",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_8",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_9",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_10",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_11",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_12",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_13",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_14",
+          "type": "IMAGE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "slot_index": 0,
+          "links": [
+            45
+          ]
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "slot_index": 1,
+          "links": []
+        },
+        {
+          "name": "raw_json",
+          "type": "STRING",
+          "slot_index": 2,
+          "links": []
+        }
+      ],
+      "title": "13 S08 家-客厅",
+      "properties": {
+        "Node name for S&R": "YunwuGeminiImage"
+      },
+      "widgets_values": [
+        "普通单身公寓客厅，16:9，男主角站在画面中央扫视房间，沙发、茶几、电视柜、半开的卧室门，暖黄灯与深阴影并存，构图为广角中景，镜头略高，空间真实凌乱但没有被破坏，悬疑电影质感，细腻颗粒",
+        "",
+        "https://yunwu.ai",
+        "gemini-3-pro-image-preview",
+        "TEXT,IMAGE",
+        "16:9",
+        "1K",
+        1,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        "randomize",
+        "image/png",
+        "{}",
+        "{}"
+      ]
+    },
+    {
+      "id": 14,
+      "type": "YunwuGeminiImage",
+      "pos": [
+        620,
+        2580
+      ],
+      "size": [
+        520,
+        760
+      ],
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image_1",
+          "type": "IMAGE",
+          "link": 14
+        },
+        {
+          "name": "image_2",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_3",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_4",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_5",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_6",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_7",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_8",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_9",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_10",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_11",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_12",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_13",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_14",
+          "type": "IMAGE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "slot_index": 0,
+          "links": [
+            46
+          ]
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "slot_index": 1,
+          "links": []
+        },
+        {
+          "name": "raw_json",
+          "type": "STRING",
+          "slot_index": 2,
+          "links": []
+        }
+      ],
+      "title": "14 S09 家-抽屉",
+      "properties": {
+        "Node name for S&R": "YunwuGeminiImage"
+      },
+      "widgets_values": [
+        "抽屉内物品特写，16:9，身份证、银行卡、文件袋、票据被手快速翻开确认，暖黄台灯照明，手部动作略有运动模糊，构图紧凑，浅景深，真实生活道具质感，悬疑短片胶片颗粒",
+        "",
+        "https://yunwu.ai",
+        "gemini-3-pro-image-preview",
+        "TEXT,IMAGE",
+        "16:9",
+        "1K",
+        1,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        "randomize",
+        "image/png",
+        "{}",
+        "{}"
+      ]
+    },
+    {
+      "id": 15,
+      "type": "YunwuGeminiImage",
+      "pos": [
+        1240,
+        2580
+      ],
+      "size": [
+        520,
+        760
+      ],
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image_1",
+          "type": "IMAGE",
+          "link": 15
+        },
+        {
+          "name": "image_2",
+          "type": "IMAGE",
+          "link": 16
+        },
+        {
+          "name": "image_3",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_4",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_5",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_6",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_7",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_8",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_9",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_10",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_11",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_12",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_13",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_14",
+          "type": "IMAGE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "slot_index": 0,
+          "links": [
+            47
+          ]
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "slot_index": 1,
+          "links": []
+        },
+        {
+          "name": "raw_json",
+          "type": "STRING",
+          "slot_index": 2,
+          "links": []
+        }
+      ],
+      "title": "15 S10 家-卧室",
+      "properties": {
+        "Node name for S&R": "YunwuGeminiImage"
+      },
+      "widgets_values": [
+        "卧室中近景，16:9，男主角半蹲在床边翻床头柜和衣柜，衣物被拉出，抽屉半开，暖黄灯下阴影很深，构图偏斜，轻微广角，人物动作焦躁，现实主义悬疑，低照度，胶片颗粒",
+        "",
+        "https://yunwu.ai",
+        "gemini-3-pro-image-preview",
+        "TEXT,IMAGE",
+        "16:9",
+        "1K",
+        1,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        "randomize",
+        "image/png",
+        "{}",
+        "{}"
+      ]
+    },
+    {
+      "id": 16,
+      "type": "YunwuGeminiImage",
+      "pos": [
+        1860,
+        2580
+      ],
+      "size": [
+        520,
+        760
+      ],
+      "flags": {},
+      "order": 15,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image_1",
+          "type": "IMAGE",
+          "link": 17
+        },
+        {
+          "name": "image_2",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_3",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_4",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_5",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_6",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_7",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_8",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_9",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_10",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_11",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_12",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_13",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_14",
+          "type": "IMAGE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "slot_index": 0,
+          "links": [
+            48
+          ]
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "slot_index": 1,
+          "links": []
+        },
+        {
+          "name": "raw_json",
+          "type": "STRING",
+          "slot_index": 2,
+          "links": []
+        }
+      ],
+      "title": "16 S11 家-桌面",
+      "properties": {
+        "Node name for S&R": "YunwuGeminiImage"
+      },
+      "widgets_values": [
+        "俯拍静物镜头，16:9，身份证、银行卡、手机、钱包整齐摊在暗色木桌上，旁边有主角的手停在画面边缘，台灯侧光形成长阴影，所有物品都清楚可见，真实道具质感，冷暖混合光，悬疑电影单帧",
+        "",
+        "https://yunwu.ai",
+        "gemini-3-pro-image-preview",
+        "TEXT,IMAGE",
+        "16:9",
+        "1K",
+        1,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        "randomize",
+        "image/png",
+        "{}",
+        "{}"
+      ]
+    },
+    {
+      "id": 17,
+      "type": "YunwuGeminiImage",
+      "pos": [
+        0,
+        3440
+      ],
+      "size": [
+        520,
+        760
+      ],
+      "flags": {},
+      "order": 16,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image_1",
+          "type": "IMAGE",
+          "link": 18
+        },
+        {
+          "name": "image_2",
+          "type": "IMAGE",
+          "link": 19
+        },
+        {
+          "name": "image_3",
+          "type": "IMAGE",
+          "link": 20
+        },
+        {
+          "name": "image_4",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_5",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_6",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_7",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_8",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_9",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_10",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_11",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_12",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_13",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_14",
+          "type": "IMAGE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "slot_index": 0,
+          "links": [
+            49
+          ]
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "slot_index": 1,
+          "links": []
+        },
+        {
+          "name": "raw_json",
+          "type": "STRING",
+          "slot_index": 2,
+          "links": []
+        }
+      ],
+      "title": "17 S12 家-客厅",
+      "properties": {
+        "Node name for S&R": "YunwuGeminiImage"
+      },
+      "widgets_values": [
+        "客厅近景，16:9，男主角坐在沙发边缘低头看手机通话记录，眉头紧皱，表情从紧张转为恼火，桌上摊着钱包证件，暖黄灯照亮一小块区域，背景陷入黑暗，浅景深，现实主义悬疑短片质感",
+        "",
+        "https://yunwu.ai",
+        "gemini-3-pro-image-preview",
+        "TEXT,IMAGE",
+        "16:9",
+        "1K",
+        1,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        "randomize",
+        "image/png",
+        "{}",
+        "{}"
+      ]
+    },
+    {
+      "id": 18,
+      "type": "YunwuGeminiImage",
+      "pos": [
+        620,
+        3440
+      ],
+      "size": [
+        520,
+        760
+      ],
+      "flags": {},
+      "order": 17,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image_1",
+          "type": "IMAGE",
+          "link": 21
+        },
+        {
+          "name": "image_2",
+          "type": "IMAGE",
+          "link": 22
+        },
+        {
+          "name": "image_3",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_4",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_5",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_6",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_7",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_8",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_9",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_10",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_11",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_12",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_13",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_14",
+          "type": "IMAGE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "slot_index": 0,
+          "links": [
+            50
+          ]
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "slot_index": 1,
+          "links": []
+        },
+        {
+          "name": "raw_json",
+          "type": "STRING",
+          "slot_index": 2,
+          "links": []
+        }
+      ],
+      "title": "18 S13 夜-卧室",
+      "properties": {
+        "Node name for S&R": "YunwuGeminiImage"
+      },
+      "widgets_values": [
+        "深夜卧室广角，16:9，男主角躺在床上入睡，床头灯关闭，窗外蓝灰月光透进来，床边桌上手机黑屏，房门半开，构图留出大量黑暗空间，低照度，真实恐怖悬疑电影质感，细腻胶片颗粒",
+        "",
+        "https://yunwu.ai",
+        "gemini-3-pro-image-preview",
+        "TEXT,IMAGE",
+        "16:9",
+        "1K",
+        1,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        "randomize",
+        "image/png",
+        "{}",
+        "{}"
+      ]
+    },
+    {
+      "id": 19,
+      "type": "YunwuGeminiImage",
+      "pos": [
+        1240,
+        3440
+      ],
+      "size": [
+        520,
+        760
+      ],
+      "flags": {},
+      "order": 18,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image_1",
+          "type": "IMAGE",
+          "link": 23
+        },
+        {
+          "name": "image_2",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_3",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_4",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_5",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_6",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_7",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_8",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_9",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_10",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_11",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_12",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_13",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_14",
+          "type": "IMAGE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "slot_index": 0,
+          "links": [
+            51
+          ]
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "slot_index": 1,
+          "links": []
+        },
+        {
+          "name": "raw_json",
+          "type": "STRING",
+          "slot_index": 2,
+          "links": []
+        }
+      ],
+      "title": "19 S14 夜-床头",
+      "properties": {
+        "Node name for S&R": "YunwuGeminiImage"
+      },
+      "widgets_values": [
+        "床头特写，16:9，男主角侧躺睡觉，眉头微皱，脸部被窗外冷蓝月光切出一半明暗，背景黑暗，浅景深，构图紧贴脸部，气氛压迫，现实主义悬疑恐怖，低照度高细节",
+        "",
+        "https://yunwu.ai",
+        "gemini-3-pro-image-preview",
+        "TEXT,IMAGE",
+        "16:9",
+        "1K",
+        1,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        "randomize",
+        "image/png",
+        "{}",
+        "{}"
+      ]
+    },
+    {
+      "id": 20,
+      "type": "YunwuGeminiImage",
+      "pos": [
+        1860,
+        3440
+      ],
+      "size": [
+        520,
+        760
+      ],
+      "flags": {},
+      "order": 19,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image_1",
+          "type": "IMAGE",
+          "link": 24
+        },
+        {
+          "name": "image_2",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_3",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_4",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_5",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_6",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_7",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_8",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_9",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_10",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_11",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_12",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_13",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_14",
+          "type": "IMAGE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "slot_index": 0,
+          "links": [
+            52
+          ]
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "slot_index": 1,
+          "links": []
+        },
+        {
+          "name": "raw_json",
+          "type": "STRING",
+          "slot_index": 2,
+          "links": []
+        }
+      ],
+      "title": "20 S15 夜-卧室",
+      "properties": {
+        "Node name for S&R": "YunwuGeminiImage"
+      },
+      "widgets_values": [
+        "深夜卧室主观视角，16:9，从床上看向房间角落，黑暗中隐约像有人形阴影但不能看清，半开的门、衣柜边缘、窗帘蓝灰光，构图让暗角占据画面左侧，低照度，克制恐怖，真实胶片质感，不出现明显怪物",
+        "",
+        "https://yunwu.ai",
+        "gemini-3-pro-image-preview",
+        "TEXT,IMAGE",
+        "16:9",
+        "1K",
+        1,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        "randomize",
+        "image/png",
+        "{}",
+        "{}"
+      ]
+    },
+    {
+      "id": 21,
+      "type": "YunwuGeminiImage",
+      "pos": [
+        0,
+        4300
+      ],
+      "size": [
+        520,
+        760
+      ],
+      "flags": {},
+      "order": 20,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image_1",
+          "type": "IMAGE",
+          "link": 25
+        },
+        {
+          "name": "image_2",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_3",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_4",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_5",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_6",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_7",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_8",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_9",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_10",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_11",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_12",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_13",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_14",
+          "type": "IMAGE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "slot_index": 0,
+          "links": [
+            53
+          ]
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "slot_index": 1,
+          "links": []
+        },
+        {
+          "name": "raw_json",
+          "type": "STRING",
+          "slot_index": 2,
+          "links": []
+        }
+      ],
+      "title": "21 S16 夜-床头",
+      "properties": {
+        "Node name for S&R": "YunwuGeminiImage"
+      },
+      "widgets_values": [
+        "极近特写，16:9，男主角睡梦中的耳朵和侧脸，画面边缘被黑暗吞没，冷蓝月光只照到皮肤边缘，构图压迫，浅景深，背景完全黑，现实主义恐怖悬疑，高细节皮肤纹理，胶片颗粒",
+        "",
+        "https://yunwu.ai",
+        "gemini-3-pro-image-preview",
+        "TEXT,IMAGE",
+        "16:9",
+        "1K",
+        1,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        "randomize",
+        "image/png",
+        "{}",
+        "{}"
+      ]
+    },
+    {
+      "id": 22,
+      "type": "YunwuGeminiImage",
+      "pos": [
+        620,
+        4300
+      ],
+      "size": [
+        520,
+        760
+      ],
+      "flags": {},
+      "order": 21,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image_1",
+          "type": "IMAGE",
+          "link": 26
+        },
+        {
+          "name": "image_2",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_3",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_4",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_5",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_6",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_7",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_8",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_9",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_10",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_11",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_12",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_13",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_14",
+          "type": "IMAGE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "slot_index": 0,
+          "links": [
+            54
+          ]
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "slot_index": 1,
+          "links": []
+        },
+        {
+          "name": "raw_json",
+          "type": "STRING",
+          "slot_index": 2,
+          "links": []
+        }
+      ],
+      "title": "22 S17 夜-床头",
+      "properties": {
+        "Node name for S&R": "YunwuGeminiImage"
+      },
+      "widgets_values": [
+        "悬疑恐怖短片极近特写，16:9，男主角半睡半醒，眼睛突然睁开，耳边的黑暗贴得很近但说话者不可见，冷蓝月光切过眼睛，构图紧迫，低照度，真实电影质感，克制恐怖，不出现血腥",
+        "",
+        "https://yunwu.ai",
+        "gemini-3-pro-image-preview",
+        "TEXT,IMAGE",
+        "16:9",
+        "1K",
+        1,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        "randomize",
+        "image/png",
+        "{}",
+        "{}"
+      ]
+    },
+    {
+      "id": 23,
+      "type": "YunwuGeminiImage",
+      "pos": [
+        1240,
+        4300
+      ],
+      "size": [
+        520,
+        760
+      ],
+      "flags": {},
+      "order": 22,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image_1",
+          "type": "IMAGE",
+          "link": 27
+        },
+        {
+          "name": "image_2",
+          "type": "IMAGE",
+          "link": 28
+        },
+        {
+          "name": "image_3",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_4",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_5",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_6",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_7",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_8",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_9",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_10",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_11",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_12",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_13",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_14",
+          "type": "IMAGE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "slot_index": 0,
+          "links": [
+            55
+          ]
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "slot_index": 1,
+          "links": []
+        },
+        {
+          "name": "raw_json",
+          "type": "STRING",
+          "slot_index": 2,
+          "links": []
+        }
+      ],
+      "title": "23 S18 夜-卧室",
+      "properties": {
+        "Node name for S&R": "YunwuGeminiImage"
+      },
+      "widgets_values": [
+        "深夜卧室中景，16:9，男主角从床上猛然坐起，神情惊恐但克制，房间空无一人，半开的门和衣柜在背景中，冷蓝月光，构图偏空，人物在画面下方，强烈黑暗留白，现实主义悬疑恐怖质感",
+        "",
+        "https://yunwu.ai",
+        "gemini-3-pro-image-preview",
+        "TEXT,IMAGE",
+        "16:9",
+        "1K",
+        1,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        "randomize",
+        "image/png",
+        "{}",
+        "{}"
+      ]
+    },
+    {
+      "id": 24,
+      "type": "YunwuGeminiImage",
+      "pos": [
+        1860,
+        4300
+      ],
+      "size": [
+        520,
+        760
+      ],
+      "flags": {},
+      "order": 23,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image_1",
+          "type": "IMAGE",
+          "link": 29
+        },
+        {
+          "name": "image_2",
+          "type": "IMAGE",
+          "link": 30
+        },
+        {
+          "name": "image_3",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_4",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_5",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_6",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_7",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_8",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_9",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_10",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_11",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_12",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_13",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_14",
+          "type": "IMAGE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "slot_index": 0,
+          "links": [
+            56
+          ]
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "slot_index": 1,
+          "links": []
+        },
+        {
+          "name": "raw_json",
+          "type": "STRING",
+          "slot_index": 2,
+          "links": []
+        }
+      ],
+      "title": "24 S19 夜-玄关",
+      "properties": {
+        "Node name for S&R": "YunwuGeminiImage"
+      },
+      "widgets_values": [
+        "深夜玄关主观视角，16:9，墙上的钥匙盘在冷蓝月光和微弱暖光中显现，其中一个挂钩空着，旁边挂着其他钥匙，画面右侧有门锁和鞋柜边缘，构图强调空挂钩，浅景深，现实悬疑电影质感，低照度",
+        "",
+        "https://yunwu.ai",
+        "gemini-3-pro-image-preview",
+        "TEXT,IMAGE",
+        "16:9",
+        "1K",
+        1,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        "randomize",
+        "image/png",
+        "{}",
+        "{}"
+      ]
+    },
+    {
+      "id": 25,
+      "type": "YunwuGeminiImage",
+      "pos": [
+        0,
+        5160
+      ],
+      "size": [
+        520,
+        760
+      ],
+      "flags": {},
+      "order": 24,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image_1",
+          "type": "IMAGE",
+          "link": 31
+        },
+        {
+          "name": "image_2",
+          "type": "IMAGE",
+          "link": 32
+        },
+        {
+          "name": "image_3",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_4",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_5",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_6",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_7",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_8",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_9",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_10",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_11",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_12",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_13",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image_14",
+          "type": "IMAGE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "slot_index": 0,
+          "links": [
+            57
+          ]
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "slot_index": 1,
+          "links": []
+        },
+        {
+          "name": "raw_json",
+          "type": "STRING",
+          "slot_index": 2,
+          "links": []
+        }
+      ],
+      "title": "25 S20 夜-道具特写",
+      "properties": {
+        "Node name for S&R": "YunwuGeminiImage"
+      },
+      "widgets_values": [
+        "结尾道具特写，16:9，暗色木桌或玄关钥匙盘上有一处明显的钥匙空位，旁边有细小灰尘轮廓和金属挂钩，缺失的钥匙形成视觉中心，侧光投下长阴影，画面极简，冷蓝黑色调，现实主义悬疑恐怖电影质感，细腻胶片颗粒",
+        "",
+        "https://yunwu.ai",
+        "gemini-3-pro-image-preview",
+        "TEXT,IMAGE",
+        "16:9",
+        "1K",
+        1,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        "randomize",
+        "image/png",
+        "{}",
+        "{}"
+      ]
+    },
+    {
+      "id": 26,
+      "type": "SaveImage",
+      "pos": [
+        0,
+        780
+      ],
+      "size": [
+        320,
+        70
+      ],
+      "flags": {},
+      "order": 25,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 33
+        }
+      ],
+      "outputs": [],
+      "title": "Save REF01",
+      "properties": {
+        "Node name for S&R": "SaveImage"
+      },
+      "widgets_values": [
+        "phone_key_story/REF01"
+      ]
+    },
+    {
+      "id": 27,
+      "type": "SaveImage",
+      "pos": [
+        620,
+        780
+      ],
+      "size": [
+        320,
+        70
+      ],
+      "flags": {},
+      "order": 26,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 34
+        }
+      ],
+      "outputs": [],
+      "title": "Save REF02",
+      "properties": {
+        "Node name for S&R": "SaveImage"
+      },
+      "widgets_values": [
+        "phone_key_story/REF02"
+      ]
+    },
+    {
+      "id": 28,
+      "type": "SaveImage",
+      "pos": [
+        1240,
+        780
+      ],
+      "size": [
+        320,
+        70
+      ],
+      "flags": {},
+      "order": 27,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 35
+        }
+      ],
+      "outputs": [],
+      "title": "Save REF03",
+      "properties": {
+        "Node name for S&R": "SaveImage"
+      },
+      "widgets_values": [
+        "phone_key_story/REF03"
+      ]
+    },
+    {
+      "id": 29,
+      "type": "SaveImage",
+      "pos": [
+        1860,
+        780
+      ],
+      "size": [
+        320,
+        70
+      ],
+      "flags": {},
+      "order": 28,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 36
+        }
+      ],
+      "outputs": [],
+      "title": "Save REF04",
+      "properties": {
+        "Node name for S&R": "SaveImage"
+      },
+      "widgets_values": [
+        "phone_key_story/REF04"
+      ]
+    },
+    {
+      "id": 30,
+      "type": "SaveImage",
+      "pos": [
+        0,
+        1640
+      ],
+      "size": [
+        320,
+        70
+      ],
+      "flags": {},
+      "order": 29,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 37
+        }
+      ],
+      "outputs": [],
+      "title": "Save REF05",
+      "properties": {
+        "Node name for S&R": "SaveImage"
+      },
+      "widgets_values": [
+        "phone_key_story/REF05"
+      ]
+    },
+    {
+      "id": 31,
+      "type": "SaveImage",
+      "pos": [
+        620,
+        1640
+      ],
+      "size": [
+        320,
+        70
+      ],
+      "flags": {},
+      "order": 30,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 38
+        }
+      ],
+      "outputs": [],
+      "title": "Save S01",
+      "properties": {
+        "Node name for S&R": "SaveImage"
+      },
+      "widgets_values": [
+        "phone_key_story/S01"
+      ]
+    },
+    {
+      "id": 32,
+      "type": "SaveImage",
+      "pos": [
+        1240,
+        1640
+      ],
+      "size": [
+        320,
+        70
+      ],
+      "flags": {},
+      "order": 31,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 39
+        }
+      ],
+      "outputs": [],
+      "title": "Save S02",
+      "properties": {
+        "Node name for S&R": "SaveImage"
+      },
+      "widgets_values": [
+        "phone_key_story/S02"
+      ]
+    },
+    {
+      "id": 33,
+      "type": "SaveImage",
+      "pos": [
+        1860,
+        1640
+      ],
+      "size": [
+        320,
+        70
+      ],
+      "flags": {},
+      "order": 32,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 40
+        }
+      ],
+      "outputs": [],
+      "title": "Save S03",
+      "properties": {
+        "Node name for S&R": "SaveImage"
+      },
+      "widgets_values": [
+        "phone_key_story/S03"
+      ]
+    },
+    {
+      "id": 34,
+      "type": "SaveImage",
+      "pos": [
+        0,
+        2500
+      ],
+      "size": [
+        320,
+        70
+      ],
+      "flags": {},
+      "order": 33,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 41
+        }
+      ],
+      "outputs": [],
+      "title": "Save S04",
+      "properties": {
+        "Node name for S&R": "SaveImage"
+      },
+      "widgets_values": [
+        "phone_key_story/S04"
+      ]
+    },
+    {
+      "id": 35,
+      "type": "SaveImage",
+      "pos": [
+        620,
+        2500
+      ],
+      "size": [
+        320,
+        70
+      ],
+      "flags": {},
+      "order": 34,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 42
+        }
+      ],
+      "outputs": [],
+      "title": "Save S05",
+      "properties": {
+        "Node name for S&R": "SaveImage"
+      },
+      "widgets_values": [
+        "phone_key_story/S05"
+      ]
+    },
+    {
+      "id": 36,
+      "type": "SaveImage",
+      "pos": [
+        1240,
+        2500
+      ],
+      "size": [
+        320,
+        70
+      ],
+      "flags": {},
+      "order": 35,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 43
+        }
+      ],
+      "outputs": [],
+      "title": "Save S06",
+      "properties": {
+        "Node name for S&R": "SaveImage"
+      },
+      "widgets_values": [
+        "phone_key_story/S06"
+      ]
+    },
+    {
+      "id": 37,
+      "type": "SaveImage",
+      "pos": [
+        1860,
+        2500
+      ],
+      "size": [
+        320,
+        70
+      ],
+      "flags": {},
+      "order": 36,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 44
+        }
+      ],
+      "outputs": [],
+      "title": "Save S07",
+      "properties": {
+        "Node name for S&R": "SaveImage"
+      },
+      "widgets_values": [
+        "phone_key_story/S07"
+      ]
+    },
+    {
+      "id": 38,
+      "type": "SaveImage",
+      "pos": [
+        0,
+        3360
+      ],
+      "size": [
+        320,
+        70
+      ],
+      "flags": {},
+      "order": 37,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 45
+        }
+      ],
+      "outputs": [],
+      "title": "Save S08",
+      "properties": {
+        "Node name for S&R": "SaveImage"
+      },
+      "widgets_values": [
+        "phone_key_story/S08"
+      ]
+    },
+    {
+      "id": 39,
+      "type": "SaveImage",
+      "pos": [
+        620,
+        3360
+      ],
+      "size": [
+        320,
+        70
+      ],
+      "flags": {},
+      "order": 38,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 46
+        }
+      ],
+      "outputs": [],
+      "title": "Save S09",
+      "properties": {
+        "Node name for S&R": "SaveImage"
+      },
+      "widgets_values": [
+        "phone_key_story/S09"
+      ]
+    },
+    {
+      "id": 40,
+      "type": "SaveImage",
+      "pos": [
+        1240,
+        3360
+      ],
+      "size": [
+        320,
+        70
+      ],
+      "flags": {},
+      "order": 39,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 47
+        }
+      ],
+      "outputs": [],
+      "title": "Save S10",
+      "properties": {
+        "Node name for S&R": "SaveImage"
+      },
+      "widgets_values": [
+        "phone_key_story/S10"
+      ]
+    },
+    {
+      "id": 41,
+      "type": "SaveImage",
+      "pos": [
+        1860,
+        3360
+      ],
+      "size": [
+        320,
+        70
+      ],
+      "flags": {},
+      "order": 40,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 48
+        }
+      ],
+      "outputs": [],
+      "title": "Save S11",
+      "properties": {
+        "Node name for S&R": "SaveImage"
+      },
+      "widgets_values": [
+        "phone_key_story/S11"
+      ]
+    },
+    {
+      "id": 42,
+      "type": "SaveImage",
+      "pos": [
+        0,
+        4220
+      ],
+      "size": [
+        320,
+        70
+      ],
+      "flags": {},
+      "order": 41,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 49
+        }
+      ],
+      "outputs": [],
+      "title": "Save S12",
+      "properties": {
+        "Node name for S&R": "SaveImage"
+      },
+      "widgets_values": [
+        "phone_key_story/S12"
+      ]
+    },
+    {
+      "id": 43,
+      "type": "SaveImage",
+      "pos": [
+        620,
+        4220
+      ],
+      "size": [
+        320,
+        70
+      ],
+      "flags": {},
+      "order": 42,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 50
+        }
+      ],
+      "outputs": [],
+      "title": "Save S13",
+      "properties": {
+        "Node name for S&R": "SaveImage"
+      },
+      "widgets_values": [
+        "phone_key_story/S13"
+      ]
+    },
+    {
+      "id": 44,
+      "type": "SaveImage",
+      "pos": [
+        1240,
+        4220
+      ],
+      "size": [
+        320,
+        70
+      ],
+      "flags": {},
+      "order": 43,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 51
+        }
+      ],
+      "outputs": [],
+      "title": "Save S14",
+      "properties": {
+        "Node name for S&R": "SaveImage"
+      },
+      "widgets_values": [
+        "phone_key_story/S14"
+      ]
+    },
+    {
+      "id": 45,
+      "type": "SaveImage",
+      "pos": [
+        1860,
+        4220
+      ],
+      "size": [
+        320,
+        70
+      ],
+      "flags": {},
+      "order": 44,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 52
+        }
+      ],
+      "outputs": [],
+      "title": "Save S15",
+      "properties": {
+        "Node name for S&R": "SaveImage"
+      },
+      "widgets_values": [
+        "phone_key_story/S15"
+      ]
+    },
+    {
+      "id": 46,
+      "type": "SaveImage",
+      "pos": [
+        0,
+        5080
+      ],
+      "size": [
+        320,
+        70
+      ],
+      "flags": {},
+      "order": 45,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 53
+        }
+      ],
+      "outputs": [],
+      "title": "Save S16",
+      "properties": {
+        "Node name for S&R": "SaveImage"
+      },
+      "widgets_values": [
+        "phone_key_story/S16"
+      ]
+    },
+    {
+      "id": 47,
+      "type": "SaveImage",
+      "pos": [
+        620,
+        5080
+      ],
+      "size": [
+        320,
+        70
+      ],
+      "flags": {},
+      "order": 46,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 54
+        }
+      ],
+      "outputs": [],
+      "title": "Save S17",
+      "properties": {
+        "Node name for S&R": "SaveImage"
+      },
+      "widgets_values": [
+        "phone_key_story/S17"
+      ]
+    },
+    {
+      "id": 48,
+      "type": "SaveImage",
+      "pos": [
+        1240,
+        5080
+      ],
+      "size": [
+        320,
+        70
+      ],
+      "flags": {},
+      "order": 47,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 55
+        }
+      ],
+      "outputs": [],
+      "title": "Save S18",
+      "properties": {
+        "Node name for S&R": "SaveImage"
+      },
+      "widgets_values": [
+        "phone_key_story/S18"
+      ]
+    },
+    {
+      "id": 49,
+      "type": "SaveImage",
+      "pos": [
+        1860,
+        5080
+      ],
+      "size": [
+        320,
+        70
+      ],
+      "flags": {},
+      "order": 48,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 56
+        }
+      ],
+      "outputs": [],
+      "title": "Save S19",
+      "properties": {
+        "Node name for S&R": "SaveImage"
+      },
+      "widgets_values": [
+        "phone_key_story/S19"
+      ]
+    },
+    {
+      "id": 50,
+      "type": "SaveImage",
+      "pos": [
+        0,
+        5940
+      ],
+      "size": [
+        320,
+        70
+      ],
+      "flags": {},
+      "order": 49,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 57
+        }
+      ],
+      "outputs": [],
+      "title": "Save S20",
+      "properties": {
+        "Node name for S&R": "SaveImage"
+      },
+      "widgets_values": [
+        "phone_key_story/S20"
+      ]
+    }
+  ],
+  "links": [
+    [
+      1,
+      1,
+      0,
+      6,
+      0,
+      "IMAGE"
+    ],
+    [
+      2,
+      2,
+      0,
+      6,
+      1,
+      "IMAGE"
+    ],
+    [
+      3,
+      2,
+      0,
+      7,
+      0,
+      "IMAGE"
+    ],
+    [
+      4,
+      1,
+      0,
+      8,
+      0,
+      "IMAGE"
+    ],
+    [
+      5,
+      2,
+      0,
+      8,
+      1,
+      "IMAGE"
+    ],
+    [
+      6,
+      1,
+      0,
+      9,
+      0,
+      "IMAGE"
+    ],
+    [
+      7,
+      1,
+      0,
+      10,
+      0,
+      "IMAGE"
+    ],
+    [
+      8,
+      2,
+      0,
+      10,
+      1,
+      "IMAGE"
+    ],
+    [
+      9,
+      1,
+      0,
+      11,
+      0,
+      "IMAGE"
+    ],
+    [
+      10,
+      1,
+      0,
+      12,
+      0,
+      "IMAGE"
+    ],
+    [
+      11,
+      3,
+      0,
+      12,
+      1,
+      "IMAGE"
+    ],
+    [
+      12,
+      1,
+      0,
+      13,
+      0,
+      "IMAGE"
+    ],
+    [
+      13,
+      3,
+      0,
+      13,
+      1,
+      "IMAGE"
+    ],
+    [
+      14,
+      5,
+      0,
+      14,
+      0,
+      "IMAGE"
+    ],
+    [
+      15,
+      1,
+      0,
+      15,
+      0,
+      "IMAGE"
+    ],
+    [
+      16,
+      3,
+      0,
+      15,
+      1,
+      "IMAGE"
+    ],
+    [
+      17,
+      5,
+      0,
+      16,
+      0,
+      "IMAGE"
+    ],
+    [
+      18,
+      1,
+      0,
+      17,
+      0,
+      "IMAGE"
+    ],
+    [
+      19,
+      3,
+      0,
+      17,
+      1,
+      "IMAGE"
+    ],
+    [
+      20,
+      5,
+      0,
+      17,
+      2,
+      "IMAGE"
+    ],
+    [
+      21,
+      1,
+      0,
+      18,
+      0,
+      "IMAGE"
+    ],
+    [
+      22,
+      3,
+      0,
+      18,
+      1,
+      "IMAGE"
+    ],
+    [
+      23,
+      1,
+      0,
+      19,
+      0,
+      "IMAGE"
+    ],
+    [
+      24,
+      3,
+      0,
+      20,
+      0,
+      "IMAGE"
+    ],
+    [
+      25,
+      1,
+      0,
+      21,
+      0,
+      "IMAGE"
+    ],
+    [
+      26,
+      1,
+      0,
+      22,
+      0,
+      "IMAGE"
+    ],
+    [
+      27,
+      1,
+      0,
+      23,
+      0,
+      "IMAGE"
+    ],
+    [
+      28,
+      3,
+      0,
+      23,
+      1,
+      "IMAGE"
+    ],
+    [
+      29,
+      3,
+      0,
+      24,
+      0,
+      "IMAGE"
+    ],
+    [
+      30,
+      4,
+      0,
+      24,
+      1,
+      "IMAGE"
+    ],
+    [
+      31,
+      3,
+      0,
+      25,
+      0,
+      "IMAGE"
+    ],
+    [
+      32,
+      4,
+      0,
+      25,
+      1,
+      "IMAGE"
+    ],
+    [
+      33,
+      1,
+      0,
+      26,
+      0,
+      "IMAGE"
+    ],
+    [
+      34,
+      2,
+      0,
+      27,
+      0,
+      "IMAGE"
+    ],
+    [
+      35,
+      3,
+      0,
+      28,
+      0,
+      "IMAGE"
+    ],
+    [
+      36,
+      4,
+      0,
+      29,
+      0,
+      "IMAGE"
+    ],
+    [
+      37,
+      5,
+      0,
+      30,
+      0,
+      "IMAGE"
+    ],
+    [
+      38,
+      6,
+      0,
+      31,
+      0,
+      "IMAGE"
+    ],
+    [
+      39,
+      7,
+      0,
+      32,
+      0,
+      "IMAGE"
+    ],
+    [
+      40,
+      8,
+      0,
+      33,
+      0,
+      "IMAGE"
+    ],
+    [
+      41,
+      9,
+      0,
+      34,
+      0,
+      "IMAGE"
+    ],
+    [
+      42,
+      10,
+      0,
+      35,
+      0,
+      "IMAGE"
+    ],
+    [
+      43,
+      11,
+      0,
+      36,
+      0,
+      "IMAGE"
+    ],
+    [
+      44,
+      12,
+      0,
+      37,
+      0,
+      "IMAGE"
+    ],
+    [
+      45,
+      13,
+      0,
+      38,
+      0,
+      "IMAGE"
+    ],
+    [
+      46,
+      14,
+      0,
+      39,
+      0,
+      "IMAGE"
+    ],
+    [
+      47,
+      15,
+      0,
+      40,
+      0,
+      "IMAGE"
+    ],
+    [
+      48,
+      16,
+      0,
+      41,
+      0,
+      "IMAGE"
+    ],
+    [
+      49,
+      17,
+      0,
+      42,
+      0,
+      "IMAGE"
+    ],
+    [
+      50,
+      18,
+      0,
+      43,
+      0,
+      "IMAGE"
+    ],
+    [
+      51,
+      19,
+      0,
+      44,
+      0,
+      "IMAGE"
+    ],
+    [
+      52,
+      20,
+      0,
+      45,
+      0,
+      "IMAGE"
+    ],
+    [
+      53,
+      21,
+      0,
+      46,
+      0,
+      "IMAGE"
+    ],
+    [
+      54,
+      22,
+      0,
+      47,
+      0,
+      "IMAGE"
+    ],
+    [
+      55,
+      23,
+      0,
+      48,
+      0,
+      "IMAGE"
+    ],
+    [
+      56,
+      24,
+      0,
+      49,
+      0,
+      "IMAGE"
+    ],
+    [
+      57,
+      25,
+      0,
+      50,
+      0,
+      "IMAGE"
+    ]
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "title": "参考图先生成 REF01-REF05",
+      "bounding": [
+        -40,
+        -70,
+        2500,
+        900
+      ],
+      "color": "#0F766E",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 2,
+      "title": "测试阶段：不要 Queue，只检查提示词和节点",
+      "bounding": [
+        -40,
+        790,
+        2500,
+        5400
+      ],
+      "color": "#7C2D12",
+      "font_size": 24,
+      "flags": {}
+    }
+  ],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.55,
+      "offset": [
+        80,
+        80
+      ]
+    },
+    "frontendVersion": "1.28.6"
+  },
+  "version": 0.4
+}

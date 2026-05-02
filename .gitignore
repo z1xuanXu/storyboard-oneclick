@@ -1,0 +1,11 @@
+.env
+__pycache__/
+*.pyc
+build/
+dist/
+ComfyUI/
+output/
+*.log
+latest_history.json
+phone_key_storyboard_with_images.xlsx
+
