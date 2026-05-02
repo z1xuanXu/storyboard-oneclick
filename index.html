@@ -4,106 +4,183 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>ComfyUI Storyboard Oneclick</title>
-  <meta name="description" content="把故事大纲拆成分镜表，使用 ComfyUI + Yunwu/Gemini 一键生成单帧图，并贴回 Excel。">
+  <meta name="description" content="A public teaching kit for building a one-click ComfyUI storyboard pipeline with Yunwu/Gemini image generation and Excel storyboards.">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="index.html">Storyboard Oneclick</a>
-    <nav>
-      <a href="#workflow">流程</a>
-      <a href="#setup">安装</a>
-      <a href="#run">一键生成</a>
-      <a href="prompts.html">提示词示例</a>
+    <a class="brand" href="index.html">
+      <span class="brand-mark">SO</span>
+      <span>Storyboard Oneclick</span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="#overview">概览</a>
+      <a href="#pipeline">流程</a>
+      <a href="#install">部署</a>
+      <a href="#runbook">运行</a>
+      <a href="prompts.html">提示词</a>
     </nav>
   </header>
 
   <main>
-    <section class="hero">
+    <section class="hero" id="overview">
       <div class="hero-copy">
         <p class="eyebrow">ComfyUI + Yunwu/Gemini + Excel</p>
-        <h1>从故事大纲到成品单帧图表格</h1>
-        <p class="lead">这个项目演示如何把一个短片大纲拆成细分镜，生成参考图与镜头单帧图，再把结果按镜号贴回 Excel 分镜表。</p>
-        <div class="actions">
-          <a class="button primary" href="#run">开始部署</a>
-          <a class="button" href="prompts.html">查看提示词</a>
+        <h1>把故事大纲一键变成可交付的分镜单帧图表格</h1>
+        <p class="lead">这是一个公开教学仓库：从故事拆分、参考图策略、ComfyUI 节点编排、批量生图，到最终把 S01-S20 成品图按镜号贴回 Excel。</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#runbook">查看一键流程</a>
+          <a class="button" href="prompts.html">学习提示词写法</a>
         </div>
+        <dl class="hero-stats" aria-label="Project stats">
+          <div><dt>25</dt><dd>Yunwu 节点</dd></div>
+          <div><dt>20</dt><dd>镜头单帧图</dd></div>
+          <div><dt>5</dt><dd>参考图</dd></div>
+        </dl>
       </div>
       <figure class="hero-media">
         <img src="assets/storyboard_preview.png" alt="Excel 分镜表预览">
+        <figcaption>示例 Excel：每一行对应一个镜号、提示词、参考图关系和成品图位置。</figcaption>
       </figure>
     </section>
 
-    <section id="workflow" class="section">
+    <section class="section intro-band">
+      <div>
+        <p class="eyebrow">Repository Name</p>
+        <h2>comfyui-storyboard-oneclick</h2>
+      </div>
+      <p class="band-copy">One-click ComfyUI workflow kit for turning story outlines into shot-list Excel files, Yunwu/Gemini still-image generation, and image-filled storyboards.</p>
+    </section>
+
+    <section class="section" id="pipeline">
       <div class="section-heading">
         <p class="eyebrow">Pipeline</p>
-        <h2>核心流程</h2>
+        <h2>从文本到成品表格</h2>
+        <p>这套流程把“创作判断”和“机械执行”分开：先用结构化脚本确定镜头，再让 ComfyUI 稳定批量执行。</p>
       </div>
       <div class="flow-grid">
         <article>
           <span>01</span>
-          <h3>拆分故事</h3>
-          <p>把故事大纲整理成参考图、镜头号、画面描述、单帧图提示词和图生视频提示词。</p>
+          <h3>大纲细化</h3>
+          <p>把故事拆成镜号、场次、景别、画面描述、单帧图提示词、图生视频提示词和对白音效。</p>
         </article>
         <article>
           <span>02</span>
-          <h3>生成工作流</h3>
-          <p>脚本自动创建 Excel 和 ComfyUI workflow，参考图节点会连接到对应镜头的图片输入口。</p>
+          <h3>参考图优先</h3>
+          <p>先生成主角、场景、关键道具和随身物品，后续镜头统一引用，减少角色和空间漂移。</p>
         </article>
         <article>
           <span>03</span>
-          <h3>队列生成</h3>
-          <p>使用 Yunwu Gemini Image Generate/Edit 节点生成 REF 与 S 镜头图，输出按镜号命名。</p>
+          <h3>节点自动连线</h3>
+          <p>每个镜头一个 Yunwu Gemini Image Generate/Edit 节点，参考图自动接入 image_1、image_2 等输入口。</p>
         </article>
         <article>
           <span>04</span>
-          <h3>贴回表格</h3>
-          <p>把 S01-S20 的最终图片按行嵌入 Excel，制成可交付的视觉分镜表。</p>
+          <h3>批量生成</h3>
+          <p>脚本把 workflow 转成 ComfyUI API prompt，自动排队，节点内置重试，适合长流程生成。</p>
+        </article>
+        <article>
+          <span>05</span>
+          <h3>按镜号保存</h3>
+          <p>SaveImage 输出前缀使用 REF01、S01、S02 等命名，方便回收、排序和后续图生视频。</p>
+        </article>
+        <article>
+          <span>06</span>
+          <h3>贴回 Excel</h3>
+          <p>脚本读取 ComfyUI output 目录，把最新的 S01-S20 图片嵌入“分镜脚本”的单帧图粘贴区。</p>
         </article>
       </div>
     </section>
 
-    <section class="section sample-strip">
+    <section class="section showcase">
       <div class="section-heading">
-        <p class="eyebrow">Sample Stills</p>
+        <p class="eyebrow">Example Output</p>
         <h2>示例单帧图</h2>
+        <p>下方图片来自同一个短片案例《你丢了一把钥匙》，已压缩为网页缩略图。</p>
       </div>
       <div class="still-grid">
-        <img src="assets/sample-stills/S01.jpg" alt="S01">
-        <img src="assets/sample-stills/S04.jpg" alt="S04">
-        <img src="assets/sample-stills/S10.jpg" alt="S10">
-        <img src="assets/sample-stills/S17.jpg" alt="S17">
+        <figure><img src="assets/sample-stills/S01.jpg" alt="S01 公司电话前"><figcaption>S01 公司建立</figcaption></figure>
+        <figure><img src="assets/sample-stills/S04.jpg" alt="S04 电话低语"><figcaption>S04 电话低语</figcaption></figure>
+        <figure><img src="assets/sample-stills/S10.jpg" alt="S10 翻找卧室"><figcaption>S10 翻找卧室</figcaption></figure>
+        <figure><img src="assets/sample-stills/S17.jpg" alt="S17 耳边低语"><figcaption>S17 耳边低语</figcaption></figure>
+        <figure><img src="assets/sample-stills/S18.jpg" alt="S18 惊醒"><figcaption>S18 惊醒</figcaption></figure>
+        <figure><img src="assets/sample-stills/S20.jpg" alt="S20 钥匙缺失"><figcaption>S20 缺失的钥匙</figcaption></figure>
       </div>
     </section>
 
-    <section id="setup" class="section two-col">
+    <section class="section two-col" id="install">
       <div>
-        <p class="eyebrow">Setup</p>
-        <h2>安装节点</h2>
-        <p>把 `custom_nodes/comfyui_yunwu_image_nodes` 复制到 ComfyUI 的 `custom_nodes` 目录，然后重启 ComfyUI。</p>
+        <p class="eyebrow">Install</p>
+        <h2>部署自定义节点</h2>
+        <p>仓库内包含 `comfyui_yunwu_image_nodes`，直接复制到 ComfyUI 的 `custom_nodes` 目录即可。复制后必须重启 ComfyUI。</p>
+        <ul class="check-list">
+          <li>不要把 API key 写进 workflow 后上传。</li>
+          <li>公开仓库只保留脱敏模板。</li>
+          <li>正式运行时用环境变量传入 key。</li>
+        </ul>
       </div>
-      <pre><code>Copy-Item -Recurse .\custom_nodes\comfyui_yunwu_image_nodes `
-  F:\ComfyUI\ComfyUI-aki-v2\ComfyUI\custom_nodes\</code></pre>
+      <pre><code>Copy-Item -Recurse `
+  .\custom_nodes\comfyui_yunwu_image_nodes `
+  F:\ComfyUI\ComfyUI-aki-v2\ComfyUI\custom_nodes\
+
+# Restart ComfyUI after copying the node.</code></pre>
     </section>
 
-    <section id="run" class="section command-section">
+    <section class="section" id="runbook">
       <div class="section-heading">
-        <p class="eyebrow">One Click</p>
-        <h2>一键生成脚本</h2>
+        <p class="eyebrow">Runbook</p>
+        <h2>一键生成操作</h2>
+        <p>下面是完整的本地运行顺序。示例默认 ComfyUI 地址为 `http://127.0.0.1:8188`。</p>
       </div>
-      <div class="commands">
-        <pre><code>pip install -r requirements.txt</code></pre>
-        <pre><code>python .\scripts\build_storyboard_assets.py --story .\data\phone-key-story.json --out .\build</code></pre>
-        <pre><code>$env:YUNWU_API_KEY="sk-your-key-here"
-python .\scripts\queue_comfyui_workflow.py --workflow .\build\phone_key_story_yunwu_template.json --comfy http://127.0.0.1:8188</code></pre>
-        <pre><code>python .\scripts\embed_outputs_to_excel.py --workbook .\build\phone_key_storyboard.xlsx --images F:\ComfyUI\ComfyUI-aki-v2\ComfyUI\output\phone_key_story --out .\build\phone_key_storyboard_with_images.xlsx</code></pre>
+      <div class="runbook-grid">
+        <article>
+          <h3>1. 安装依赖</h3>
+          <pre><code>pip install -r requirements.txt</code></pre>
+        </article>
+        <article>
+          <h3>2. 生成 Excel 与 workflow</h3>
+          <pre><code>python .\scripts\build_storyboard_assets.py `
+  --story .\data\phone-key-story.json `
+  --out .\build</code></pre>
+        </article>
+        <article>
+          <h3>3. 设置 API key</h3>
+          <pre><code>$env:YUNWU_API_KEY="sk-your-key-here"</code></pre>
+        </article>
+        <article>
+          <h3>4. 提交 ComfyUI 队列</h3>
+          <pre><code>python .\scripts\queue_comfyui_workflow.py `
+  --workflow .\build\phone_key_story_yunwu_template.json `
+  --comfy http://127.0.0.1:8188</code></pre>
+        </article>
+        <article class="wide">
+          <h3>5. 把成品图贴回 Excel</h3>
+          <pre><code>python .\scripts\embed_outputs_to_excel.py `
+  --workbook .\build\phone_key_storyboard.xlsx `
+  --images F:\ComfyUI\ComfyUI-aki-v2\ComfyUI\output\phone_key_story `
+  --out .\build\phone_key_storyboard_with_images.xlsx</code></pre>
+        </article>
+      </div>
+    </section>
+
+    <section class="section parameter-section">
+      <div class="section-heading">
+        <p class="eyebrow">Recommended Node Settings</p>
+        <h2>推荐节点参数</h2>
+      </div>
+      <div class="parameter-table" role="table" aria-label="Recommended parameters">
+        <div role="row"><strong>model</strong><span>gemini-3-pro-image-preview</span></div>
+        <div role="row"><strong>response_modalities</strong><span>TEXT,IMAGE</span></div>
+        <div role="row"><strong>aspect_ratio</strong><span>16:9</span></div>
+        <div role="row"><strong>image_size</strong><span>1K</span></div>
+        <div role="row"><strong>mime_type</strong><span>image/png</span></div>
+        <div role="row"><strong>seed</strong><span>-1 + randomize widget</span></div>
       </div>
     </section>
   </main>
 
-  <footer>
-    <p>Public template. Never commit your API key.</p>
+  <footer class="site-footer">
+    <p>Built as a public teaching kit. Keep credentials local, keep workflow templates sanitized.</p>
   </footer>
 </body>
 </html>
-

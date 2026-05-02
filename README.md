@@ -2,16 +2,28 @@
 
 One-click ComfyUI workflow kit for turning story outlines into shot-list Excel files, Yunwu/Gemini still-image generation, and image-filled storyboards.
 
+This repository is both a teaching site and a working local toolkit. It demonstrates the full process used to turn a short horror outline into:
+
+- a detailed Excel storyboard
+- reference-image prompts
+- one ComfyUI workflow with connected reference inputs
+- batch still-image generation
+- a final Excel sheet with generated stills embedded by shot number
+
+## Pages
+
+- `index.html`: polished teaching homepage
+- `prompts.html`: prompt-writing examples and formulas
+- `.github/workflows/pages.yml`: GitHub Pages deployment workflow
+
 ## What This Repo Contains
 
-- A GitHub Pages teaching site: `index.html` and `prompts.html`
-- A reusable Yunwu/Gemini ComfyUI custom node: `custom_nodes/comfyui_yunwu_image_nodes`
-- A sample horror short script dataset: `data/phone-key-story.json`
-- A sanitized ComfyUI workflow: `examples/workflows/phone_key_story_yunwu_template.json`
-- Python scripts for:
-  - building an Excel storyboard and ComfyUI workflow
-  - queueing the workflow through ComfyUI
-  - embedding final stills back into the Excel sheet
+- `custom_nodes/comfyui_yunwu_image_nodes`: reusable Yunwu/Gemini ComfyUI custom node
+- `data/phone-key-story.json`: structured example story data
+- `examples/workflows/phone_key_story_yunwu_template.json`: sanitized ComfyUI workflow
+- `examples/phone_key_storyboard.xlsx`: sample storyboard workbook
+- `assets/sample-stills`: compressed example stills for the teaching site
+- `scripts`: reusable build, queue, and Excel-embedding scripts
 
 ## Quick Start
 
@@ -57,3 +69,4 @@ One-click ComfyUI workflow kit for turning story outlines into shot-list Excel f
 
 Do not commit API keys, generated history files, or private ComfyUI output metadata. The workflow in this repo is intentionally sanitized.
 
+See `docs/DEPLOY.md` for GitHub Pages setup and `docs/WORKFLOW.md` for workflow design notes.

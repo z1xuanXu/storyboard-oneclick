@@ -4,61 +4,128 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>提示词示例 | ComfyUI Storyboard Oneclick</title>
-  <meta name="description" content="参考图、单帧图和图生视频提示词写法示例。">
+  <meta name="description" content="Prompt examples for reference images, storyboard stills, and image-to-video movement prompts.">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="index.html">Storyboard Oneclick</a>
-    <nav>
-      <a href="index.html">教学页</a>
+    <a class="brand" href="index.html">
+      <span class="brand-mark">SO</span>
+      <span>Storyboard Oneclick</span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="index.html">教学首页</a>
+      <a href="#principles">原则</a>
       <a href="#reference">参考图</a>
-      <a href="#frames">单帧图</a>
+      <a href="#frame">单帧图</a>
       <a href="#video">图生视频</a>
     </nav>
   </header>
 
   <main>
     <section class="page-title">
-      <p class="eyebrow">Prompt Examples</p>
-      <h1>提示词示例页</h1>
-      <p class="lead">写提示词时先固定角色、场景和关键道具，再为每个镜头补构图、视角、光线、质感和动作意图。</p>
+      <p class="eyebrow">Prompt Library</p>
+      <h1>提示词示例与写法</h1>
+      <p class="lead">这页展示如何把“一个故事”写成可执行的图像生成语言。重点不是堆形容词，而是稳定角色、场景、物品和镜头意图。</p>
     </section>
 
-    <section id="reference" class="section">
-      <h2>参考图提示词</h2>
+    <section class="section" id="principles">
+      <div class="section-heading">
+        <p class="eyebrow">Principles</p>
+        <h2>四个写作原则</h2>
+      </div>
+      <div class="flow-grid compact">
+        <article>
+          <span>01</span>
+          <h3>先定参考图</h3>
+          <p>主角、家、办公室、关键道具先生成，再在镜头里引用，避免每个镜头像不同作品。</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>一镜一任务</h3>
+          <p>单帧图只表达一个镜头目标：接电话、翻找、确认没丢、听见低语。</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>明确画面结构</h3>
+          <p>写清景别、视角、主体位置、前景背景、光线方向和画面留白。</p>
+        </article>
+        <article>
+          <span>04</span>
+          <h3>限制跑偏内容</h3>
+          <p>恐怖题材尤其要写“不出现血腥”“不出现明显怪物”，让氛围克制。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="reference">
+      <div class="section-heading">
+        <p class="eyebrow">Reference Prompts</p>
+        <h2>参考图提示词</h2>
+      </div>
       <div class="prompt-list">
         <article>
           <h3>REF01 主角</h3>
           <p>30多岁公司职员，略疲惫，深色西装外套，白衬衫，黑发，眼下有轻微黑眼圈，普通都市男性，不夸张恐惧表情。</p>
         </article>
         <article>
+          <h3>REF02 办公室工位</h3>
+          <p>夜色将近的开放式办公室，显示器、键盘、文件夹、一次性咖啡杯，冷白顶灯，窗外城市灯光。</p>
+        </article>
+        <article>
           <h3>REF03 主角家</h3>
           <p>普通单身公寓，玄关鞋柜、钥匙盘、客厅沙发、半开的卧室门，暖黄灯但阴影很重。</p>
         </article>
         <article>
-          <h3>REF04 钥匙</h3>
+          <h3>REF04 那把钥匙</h3>
           <p>一把普通银色门钥匙，旧钥匙环上有磨损，孤零零放在暗色木桌，强烈侧光，投下细长阴影。</p>
         </article>
       </div>
     </section>
 
-    <section id="frames" class="section">
-      <h2>单帧图提示词结构</h2>
-      <div class="prompt-card">
-        <p class="tag">公式</p>
-        <p>类型与比例 + 场景时间 + 主体动作 + 构图景别 + 视角镜头 + 光线色调 + 画面细节 + 质感风格 + 限制项。</p>
+    <section class="section two-col" id="frame">
+      <div>
+        <p class="eyebrow">Frame Prompt Formula</p>
+        <h2>单帧图提示词公式</h2>
+        <p>单帧图提示词适合写得具体：画面比例、主体、动作、构图、视角、光线、道具、质感都要落地。</p>
+        <div class="formula">类型比例 → 场景时间 → 主体动作 → 构图景别 → 视角镜头 → 光线色调 → 道具细节 → 质感限制</div>
       </div>
-      <pre><code>现实主义悬疑短片单帧，16:9，傍晚开放式办公室，冷白顶灯，窗外城市灯光，
-30多岁男职员独自坐在工位电脑前，深色西装外套白衬衫，
-桌面有文件夹、咖啡杯、键盘和手机，构图为中远景，轻微俯视，
-人物偏画面右侧，空间空旷，冷色调，低对比胶片颗粒，真实电影质感。</code></pre>
+      <pre><code>现实主义悬疑短片单帧，16:9，傍晚开放式办公室，
+冷白顶灯，窗外城市灯光，30多岁男职员独自坐在工位电脑前，
+深色西装外套白衬衫，桌面有文件夹、咖啡杯、键盘和手机，
+构图为中远景，轻微俯视，人物偏画面右侧，空间空旷，
+冷色调，低对比胶片颗粒，真实电影质感。</code></pre>
     </section>
 
-    <section id="video" class="section two-col">
+    <section class="section" id="shot-examples">
+      <div class="section-heading">
+        <p class="eyebrow">Shot Examples</p>
+        <h2>镜头提示词示例</h2>
+      </div>
+      <div class="shot-example-grid">
+        <article>
+          <img src="assets/sample-stills/S04.jpg" alt="S04 电话低语">
+          <h3>S04 电话内</h3>
+          <p>极近特写，男主角耳边贴着手机，画面只包含耳朵、手机边缘和一只紧张的眼睛，眼神突然凝住，办公室冷光，背景完全虚化，构图压迫。</p>
+        </article>
+        <article>
+          <img src="assets/sample-stills/S10.jpg" alt="S10 翻找卧室">
+          <h3>S10 翻找卧室</h3>
+          <p>卧室中近景，男主角半蹲在床边翻床头柜和衣柜，衣物被拉出，抽屉半开，暖黄灯下阴影很深，构图偏斜，轻微广角。</p>
+        </article>
+        <article>
+          <img src="assets/sample-stills/S20.jpg" alt="S20 钥匙缺失">
+          <h3>S20 结尾道具</h3>
+          <p>暗色木桌或玄关钥匙盘上有一处明显钥匙空位，细小灰尘轮廓和金属挂钩形成视觉中心，侧光投下长阴影。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section two-col" id="video">
       <div>
+        <p class="eyebrow">Image-to-Video Prompt</p>
         <h2>图生视频提示词</h2>
-        <p>图生视频提示词不需要重复所有静态细节，重点写运动、速度、光线变化、焦点变化和声音节奏。</p>
+        <p>图生视频提示词重点写“怎么动”：运镜速度、焦点变化、主体动作、光线变化和节奏。不要把静态画面提示词完整复制一遍。</p>
       </div>
       <pre><code>镜头从办公室走道缓慢推向主角工位，速度很慢，
 冷白灯轻微闪烁，画面保持现实主义悬疑质感，
@@ -66,18 +133,23 @@
     </section>
 
     <section class="section">
-      <h2>镜头示例</h2>
-      <div class="gallery">
-        <figure><img src="assets/sample-stills/S01.jpg" alt="S01"><figcaption>S01 公司建立镜头</figcaption></figure>
-        <figure><img src="assets/sample-stills/S08.jpg" alt="S08"><figcaption>S08 回家检查环境</figcaption></figure>
-        <figure><img src="assets/sample-stills/S17.jpg" alt="S17"><figcaption>S17 耳边低语</figcaption></figure>
+      <div class="section-heading">
+        <p class="eyebrow">Prompt Checklist</p>
+        <h2>生成前检查</h2>
       </div>
+      <ul class="check-list columns">
+        <li>是否写明画幅，例如 16:9。</li>
+        <li>是否有统一角色参考图。</li>
+        <li>是否有统一场景参考图。</li>
+        <li>关键道具是否提前生成。</li>
+        <li>同一场景是否使用同一组参考图。</li>
+        <li>是否写了限制项防止画面跑偏。</li>
+      </ul>
     </section>
   </main>
 
-  <footer>
-    <p>Use references consistently: same character, same home, same key.</p>
+  <footer class="site-footer">
+    <p>Prompt examples are educational. Adapt them to your own story structure before generation.</p>
   </footer>
 </body>
 </html>
-
